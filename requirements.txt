@@ -1,0 +1,10 @@
+jieba==0.42
+joblib==0.14.0
+numpy==1.17.2
+tensorflow==1.13.1
+imbalanced_learn==0.7.0
+gensim==3.8.1
+~andas==0.19.2
+imblearn==0.0
+pandas==1.2.3
+scikit_learn==0.24.1

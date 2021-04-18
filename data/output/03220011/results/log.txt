@@ -1,0 +1,425 @@
+2021-03-22 00:11:23,964:INFO: {'batch_size': 64, 'epoch': 12, 'hidden_dim': 128, 'optimizer': 'Adam', 'lr': 0.01, 'dropout': 0.5, 'embedding_dim': 128, 'classes_num': 3, 'shuffle': True, 'demo_model': '03211055'}
+2021-03-22 00:11:24,023:DEBUG: Building prefix dict from the default dictionary ...
+2021-03-22 00:11:24,025:DEBUG: Loading model from cache C:\Users\kungeek\AppData\Local\Temp\jieba.cache
+2021-03-22 00:11:24,809:DEBUG: Loading model cost 0.786 seconds.
+2021-03-22 00:11:24,809:DEBUG: Prefix dict has been built successfully.
+2021-03-22 00:11:35,773:INFO: {'batch_size': 64, 'epoch': 12, 'hidden_dim': 128, 'optimizer': 'Adam', 'lr': 0.01, 'dropout': 0.5, 'embedding_dim': 128, 'classes_num': 3, 'shuffle': True, 'demo_model': '03211055'}
+2021-03-22 00:11:35,773:INFO: {'batch_size': 64, 'epoch': 12, 'hidden_dim': 128, 'optimizer': 'Adam', 'lr': 0.01, 'dropout': 0.5, 'embedding_dim': 128, 'classes_num': 3, 'shuffle': True, 'demo_model': '03211055'}
+2021-03-22 00:11:40,591:WARNING: From D:\software\Anaconda3\lib\site-packages\tensorflow\python\framework\op_def_library.py:263: colocate_with (from tensorflow.python.framework.ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Colocations handled automatically by placer.
+2021-03-22 00:11:40,591:WARNING: From D:\software\Anaconda3\lib\site-packages\tensorflow\python\framework\op_def_library.py:263: colocate_with (from tensorflow.python.framework.ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Colocations handled automatically by placer.
+2021-03-22 00:11:40,643:WARNING: From D:\github\Bi_Lstm_Text_Classify\lstm_model.py:65: calling dropout (from tensorflow.python.ops.nn_ops) with keep_prob is deprecated and will be removed in a future version.
+Instructions for updating:
+Please use `rate` instead of `keep_prob`. Rate should be set to `rate = 1 - keep_prob`.
+2021-03-22 00:11:40,643:WARNING: From D:\github\Bi_Lstm_Text_Classify\lstm_model.py:65: calling dropout (from tensorflow.python.ops.nn_ops) with keep_prob is deprecated and will be removed in a future version.
+Instructions for updating:
+Please use `rate` instead of `keep_prob`. Rate should be set to `rate = 1 - keep_prob`.
+2021-03-22 00:11:40,643:WARNING: From D:\github\Bi_Lstm_Text_Classify\lstm_model.py:65: calling dropout (from tensorflow.python.ops.nn_ops) with keep_prob is deprecated and will be removed in a future version.
+Instructions for updating:
+Please use `rate` instead of `keep_prob`. Rate should be set to `rate = 1 - keep_prob`.
+2021-03-22 00:11:40,650:WARNING: From D:\github\Bi_Lstm_Text_Classify\lstm_model.py:69: LSTMCell.__init__ (from tensorflow.python.ops.rnn_cell_impl) is deprecated and will be removed in a future version.
+Instructions for updating:
+This class is equivalent as tf.keras.layers.LSTMCell, and will be replaced by that in Tensorflow 2.0.
+2021-03-22 00:11:40,650:WARNING: From D:\github\Bi_Lstm_Text_Classify\lstm_model.py:69: LSTMCell.__init__ (from tensorflow.python.ops.rnn_cell_impl) is deprecated and will be removed in a future version.
+Instructions for updating:
+This class is equivalent as tf.keras.layers.LSTMCell, and will be replaced by that in Tensorflow 2.0.
+2021-03-22 00:11:40,650:WARNING: From D:\github\Bi_Lstm_Text_Classify\lstm_model.py:69: LSTMCell.__init__ (from tensorflow.python.ops.rnn_cell_impl) is deprecated and will be removed in a future version.
+Instructions for updating:
+This class is equivalent as tf.keras.layers.LSTMCell, and will be replaced by that in Tensorflow 2.0.
+2021-03-22 00:11:40,651:WARNING: From D:\github\Bi_Lstm_Text_Classify\lstm_model.py:75: bidirectional_dynamic_rnn (from tensorflow.python.ops.rnn) is deprecated and will be removed in a future version.
+Instructions for updating:
+Please use `keras.layers.Bidirectional(keras.layers.RNN(cell))`, which is equivalent to this API
+2021-03-22 00:11:40,651:WARNING: From D:\github\Bi_Lstm_Text_Classify\lstm_model.py:75: bidirectional_dynamic_rnn (from tensorflow.python.ops.rnn) is deprecated and will be removed in a future version.
+Instructions for updating:
+Please use `keras.layers.Bidirectional(keras.layers.RNN(cell))`, which is equivalent to this API
+2021-03-22 00:11:40,651:WARNING: From D:\github\Bi_Lstm_Text_Classify\lstm_model.py:75: bidirectional_dynamic_rnn (from tensorflow.python.ops.rnn) is deprecated and will be removed in a future version.
+Instructions for updating:
+Please use `keras.layers.Bidirectional(keras.layers.RNN(cell))`, which is equivalent to this API
+2021-03-22 00:11:40,651:WARNING: From D:\software\Anaconda3\lib\site-packages\tensorflow\python\ops\rnn.py:443: dynamic_rnn (from tensorflow.python.ops.rnn) is deprecated and will be removed in a future version.
+Instructions for updating:
+Please use `keras.layers.RNN(cell)`, which is equivalent to this API
+2021-03-22 00:11:40,651:WARNING: From D:\software\Anaconda3\lib\site-packages\tensorflow\python\ops\rnn.py:443: dynamic_rnn (from tensorflow.python.ops.rnn) is deprecated and will be removed in a future version.
+Instructions for updating:
+Please use `keras.layers.RNN(cell)`, which is equivalent to this API
+2021-03-22 00:11:40,651:WARNING: From D:\software\Anaconda3\lib\site-packages\tensorflow\python\ops\rnn.py:443: dynamic_rnn (from tensorflow.python.ops.rnn) is deprecated and will be removed in a future version.
+Instructions for updating:
+Please use `keras.layers.RNN(cell)`, which is equivalent to this API
+2021-03-22 00:11:40,974:WARNING: From D:\software\Anaconda3\lib\site-packages\tensorflow\python\ops\math_ops.py:3066: to_int32 (from tensorflow.python.ops.math_ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use tf.cast instead.
+2021-03-22 00:11:40,974:WARNING: From D:\software\Anaconda3\lib\site-packages\tensorflow\python\ops\math_ops.py:3066: to_int32 (from tensorflow.python.ops.math_ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use tf.cast instead.
+2021-03-22 00:11:40,974:WARNING: From D:\software\Anaconda3\lib\site-packages\tensorflow\python\ops\math_ops.py:3066: to_int32 (from tensorflow.python.ops.math_ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use tf.cast instead.
+2021-03-22 00:12:36,322:INFO: 2021-03-22 00:11:41 epoch 1, loss: 7.212, acc: 0.799
+2021-03-22 00:12:36,322:INFO: 2021-03-22 00:11:41 epoch 1, loss: 7.212, acc: 0.799
+2021-03-22 00:12:36,322:INFO: 2021-03-22 00:11:41 epoch 1, loss: 7.212, acc: 0.799
+2021-03-22 00:12:36,570:INFO: ===========validation / test===========
+2021-03-22 00:12:36,570:INFO: ===========validation / test===========
+2021-03-22 00:12:36,570:INFO: ===========validation / test===========
+2021-03-22 00:12:44,004:INFO: epoch 1, dev acc : 0.8705
+2021-03-22 00:12:44,004:INFO: epoch 1, dev acc : 0.8705
+2021-03-22 00:12:44,004:INFO: epoch 1, dev acc : 0.8705
+2021-03-22 00:13:45,422:INFO: 2021-03-22 00:12:44 epoch 2, loss: 0.7245, acc: 0.8533
+2021-03-22 00:13:45,422:INFO: 2021-03-22 00:12:44 epoch 2, loss: 0.7245, acc: 0.8533
+2021-03-22 00:13:45,422:INFO: 2021-03-22 00:12:44 epoch 2, loss: 0.7245, acc: 0.8533
+2021-03-22 00:13:45,644:INFO: ===========validation / test===========
+2021-03-22 00:13:45,644:INFO: ===========validation / test===========
+2021-03-22 00:13:45,644:INFO: ===========validation / test===========
+2021-03-22 00:13:53,302:INFO: epoch 2, dev acc : 0.8782
+2021-03-22 00:13:53,302:INFO: epoch 2, dev acc : 0.8782
+2021-03-22 00:13:53,302:INFO: epoch 2, dev acc : 0.8782
+2021-03-22 00:14:47,749:INFO: 2021-03-22 00:13:53 epoch 3, loss: 0.5816, acc: 0.8736
+2021-03-22 00:14:47,749:INFO: 2021-03-22 00:13:53 epoch 3, loss: 0.5816, acc: 0.8736
+2021-03-22 00:14:47,749:INFO: 2021-03-22 00:13:53 epoch 3, loss: 0.5816, acc: 0.8736
+2021-03-22 00:14:47,959:INFO: ===========validation / test===========
+2021-03-22 00:14:47,959:INFO: ===========validation / test===========
+2021-03-22 00:14:47,959:INFO: ===========validation / test===========
+2021-03-22 00:14:55,571:INFO: epoch 3, dev acc : 0.8746
+2021-03-22 00:14:55,571:INFO: epoch 3, dev acc : 0.8746
+2021-03-22 00:14:55,571:INFO: epoch 3, dev acc : 0.8746
+2021-03-22 00:15:53,499:INFO: 2021-03-22 00:14:55 epoch 4, loss: 0.545, acc: 0.8828
+2021-03-22 00:15:53,499:INFO: 2021-03-22 00:14:55 epoch 4, loss: 0.545, acc: 0.8828
+2021-03-22 00:15:53,499:INFO: 2021-03-22 00:14:55 epoch 4, loss: 0.545, acc: 0.8828
+2021-03-22 00:15:53,716:INFO: ===========validation / test===========
+2021-03-22 00:15:53,716:INFO: ===========validation / test===========
+2021-03-22 00:15:53,716:INFO: ===========validation / test===========
+2021-03-22 00:16:02,952:INFO: epoch 4, dev acc : 0.872
+2021-03-22 00:16:02,952:INFO: epoch 4, dev acc : 0.872
+2021-03-22 00:16:02,952:INFO: epoch 4, dev acc : 0.872
+2021-03-22 00:17:01,623:INFO: 2021-03-22 00:16:02 epoch 5, loss: 0.5016, acc: 0.8905
+2021-03-22 00:17:01,623:INFO: 2021-03-22 00:16:02 epoch 5, loss: 0.5016, acc: 0.8905
+2021-03-22 00:17:01,623:INFO: 2021-03-22 00:16:02 epoch 5, loss: 0.5016, acc: 0.8905
+2021-03-22 00:17:01,837:INFO: ===========validation / test===========
+2021-03-22 00:17:01,837:INFO: ===========validation / test===========
+2021-03-22 00:17:01,837:INFO: ===========validation / test===========
+2021-03-22 00:17:10,529:INFO: epoch 5, dev acc : 0.8724
+2021-03-22 00:17:10,529:INFO: epoch 5, dev acc : 0.8724
+2021-03-22 00:17:10,529:INFO: epoch 5, dev acc : 0.8724
+2021-03-22 00:18:09,607:INFO: 2021-03-22 00:17:10 epoch 6, loss: 0.4778, acc: 0.9009
+2021-03-22 00:18:09,607:INFO: 2021-03-22 00:17:10 epoch 6, loss: 0.4778, acc: 0.9009
+2021-03-22 00:18:09,607:INFO: 2021-03-22 00:17:10 epoch 6, loss: 0.4778, acc: 0.9009
+2021-03-22 00:18:09,669:WARNING: From D:\software\Anaconda3\lib\site-packages\tensorflow\python\training\saver.py:966: remove_checkpoint (from tensorflow.python.training.checkpoint_management) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use standard file APIs to delete files with this prefix.
+2021-03-22 00:18:09,669:WARNING: From D:\software\Anaconda3\lib\site-packages\tensorflow\python\training\saver.py:966: remove_checkpoint (from tensorflow.python.training.checkpoint_management) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use standard file APIs to delete files with this prefix.
+2021-03-22 00:18:09,669:WARNING: From D:\software\Anaconda3\lib\site-packages\tensorflow\python\training\saver.py:966: remove_checkpoint (from tensorflow.python.training.checkpoint_management) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use standard file APIs to delete files with this prefix.
+2021-03-22 00:18:09,837:INFO: ===========validation / test===========
+2021-03-22 00:18:09,837:INFO: ===========validation / test===========
+2021-03-22 00:18:09,837:INFO: ===========validation / test===========
+2021-03-22 00:18:17,862:INFO: epoch 6, dev acc : 0.8682
+2021-03-22 00:18:17,862:INFO: epoch 6, dev acc : 0.8682
+2021-03-22 00:18:17,862:INFO: epoch 6, dev acc : 0.8682
+2021-03-22 00:19:17,275:INFO: 2021-03-22 00:18:17 epoch 7, loss: 0.4637, acc: 0.9055
+2021-03-22 00:19:17,275:INFO: 2021-03-22 00:18:17 epoch 7, loss: 0.4637, acc: 0.9055
+2021-03-22 00:19:17,275:INFO: 2021-03-22 00:18:17 epoch 7, loss: 0.4637, acc: 0.9055
+2021-03-22 00:19:17,523:INFO: ===========validation / test===========
+2021-03-22 00:19:17,523:INFO: ===========validation / test===========
+2021-03-22 00:19:17,523:INFO: ===========validation / test===========
+2021-03-22 00:19:25,083:INFO: epoch 7, dev acc : 0.8667
+2021-03-22 00:19:25,083:INFO: epoch 7, dev acc : 0.8667
+2021-03-22 00:19:25,083:INFO: epoch 7, dev acc : 0.8667
+2021-03-22 00:20:23,765:INFO: 2021-03-22 00:19:25 epoch 8, loss: 0.4448, acc: 0.907
+2021-03-22 00:20:23,765:INFO: 2021-03-22 00:19:25 epoch 8, loss: 0.4448, acc: 0.907
+2021-03-22 00:20:23,765:INFO: 2021-03-22 00:19:25 epoch 8, loss: 0.4448, acc: 0.907
+2021-03-22 00:20:23,984:INFO: ===========validation / test===========
+2021-03-22 00:20:23,984:INFO: ===========validation / test===========
+2021-03-22 00:20:23,984:INFO: ===========validation / test===========
+2021-03-22 00:20:31,761:INFO: epoch 8, dev acc : 0.8584
+2021-03-22 00:20:31,761:INFO: epoch 8, dev acc : 0.8584
+2021-03-22 00:20:31,761:INFO: epoch 8, dev acc : 0.8584
+2021-03-22 00:21:28,074:INFO: 2021-03-22 00:20:31 epoch 9, loss: 0.4371, acc: 0.9116
+2021-03-22 00:21:28,074:INFO: 2021-03-22 00:20:31 epoch 9, loss: 0.4371, acc: 0.9116
+2021-03-22 00:21:28,074:INFO: 2021-03-22 00:20:31 epoch 9, loss: 0.4371, acc: 0.9116
+2021-03-22 00:21:28,422:INFO: ===========validation / test===========
+2021-03-22 00:21:28,422:INFO: ===========validation / test===========
+2021-03-22 00:21:28,422:INFO: ===========validation / test===========
+2021-03-22 00:21:36,423:INFO: epoch 9, dev acc : 0.8707
+2021-03-22 00:21:36,423:INFO: epoch 9, dev acc : 0.8707
+2021-03-22 00:21:36,423:INFO: epoch 9, dev acc : 0.8707
+2021-03-22 00:22:35,063:INFO: 2021-03-22 00:21:36 epoch 10, loss: 0.4284, acc: 0.9159
+2021-03-22 00:22:35,063:INFO: 2021-03-22 00:21:36 epoch 10, loss: 0.4284, acc: 0.9159
+2021-03-22 00:22:35,063:INFO: 2021-03-22 00:21:36 epoch 10, loss: 0.4284, acc: 0.9159
+2021-03-22 00:22:35,287:INFO: ===========validation / test===========
+2021-03-22 00:22:35,287:INFO: ===========validation / test===========
+2021-03-22 00:22:35,287:INFO: ===========validation / test===========
+2021-03-22 00:22:42,851:INFO: epoch 10, dev acc : 0.8566
+2021-03-22 00:22:42,851:INFO: epoch 10, dev acc : 0.8566
+2021-03-22 00:22:42,851:INFO: epoch 10, dev acc : 0.8566
+2021-03-22 00:23:40,490:INFO: 2021-03-22 00:22:42 epoch 11, loss: 0.4247, acc: 0.9177
+2021-03-22 00:23:40,490:INFO: 2021-03-22 00:22:42 epoch 11, loss: 0.4247, acc: 0.9177
+2021-03-22 00:23:40,490:INFO: 2021-03-22 00:22:42 epoch 11, loss: 0.4247, acc: 0.9177
+2021-03-22 00:23:40,728:INFO: ===========validation / test===========
+2021-03-22 00:23:40,728:INFO: ===========validation / test===========
+2021-03-22 00:23:40,728:INFO: ===========validation / test===========
+2021-03-22 00:23:48,390:INFO: epoch 11, dev acc : 0.8656
+2021-03-22 00:23:48,390:INFO: epoch 11, dev acc : 0.8656
+2021-03-22 00:23:48,390:INFO: epoch 11, dev acc : 0.8656
+2021-03-22 00:24:46,351:INFO: 2021-03-22 00:23:48 epoch 12, loss: 0.4289, acc: 0.9178
+2021-03-22 00:24:46,351:INFO: 2021-03-22 00:23:48 epoch 12, loss: 0.4289, acc: 0.9178
+2021-03-22 00:24:46,351:INFO: 2021-03-22 00:23:48 epoch 12, loss: 0.4289, acc: 0.9178
+2021-03-22 00:24:46,660:INFO: ===========validation / test===========
+2021-03-22 00:24:46,660:INFO: ===========validation / test===========
+2021-03-22 00:24:46,660:INFO: ===========validation / test===========
+2021-03-22 00:24:54,894:INFO: epoch 12, dev acc : 0.8507
+2021-03-22 00:24:54,894:INFO: epoch 12, dev acc : 0.8507
+2021-03-22 00:24:54,894:INFO: epoch 12, dev acc : 0.8507
+2021-03-22 00:26:42,189:INFO: {'batch_size': 64, 'epoch': 12, 'hidden_dim': 128, 'optimizer': 'Adam', 'lr': 0.01, 'dropout': 0.5, 'embedding_dim': 128, 'classes_num': 3, 'shuffle': True, 'demo_model': '03220011'}
+2021-03-22 00:26:42,216:DEBUG: Building prefix dict from the default dictionary ...
+2021-03-22 00:26:42,218:DEBUG: Loading model from cache C:\Users\kungeek\AppData\Local\Temp\jieba.cache
+2021-03-22 00:26:42,918:DEBUG: Loading model cost 0.702 seconds.
+2021-03-22 00:26:42,918:DEBUG: Prefix dict has been built successfully.
+2021-03-22 00:26:47,616:WARNING: From D:\software\Anaconda3\lib\site-packages\tensorflow\python\framework\op_def_library.py:263: colocate_with (from tensorflow.python.framework.ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Colocations handled automatically by placer.
+2021-03-22 00:26:47,671:WARNING: From D:\github\Bi_Lstm_Text_Classify\lstm_model.py:65: calling dropout (from tensorflow.python.ops.nn_ops) with keep_prob is deprecated and will be removed in a future version.
+Instructions for updating:
+Please use `rate` instead of `keep_prob`. Rate should be set to `rate = 1 - keep_prob`.
+2021-03-22 00:26:47,671:WARNING: From D:\github\Bi_Lstm_Text_Classify\lstm_model.py:65: calling dropout (from tensorflow.python.ops.nn_ops) with keep_prob is deprecated and will be removed in a future version.
+Instructions for updating:
+Please use `rate` instead of `keep_prob`. Rate should be set to `rate = 1 - keep_prob`.
+2021-03-22 00:26:47,679:WARNING: From D:\github\Bi_Lstm_Text_Classify\lstm_model.py:69: LSTMCell.__init__ (from tensorflow.python.ops.rnn_cell_impl) is deprecated and will be removed in a future version.
+Instructions for updating:
+This class is equivalent as tf.keras.layers.LSTMCell, and will be replaced by that in Tensorflow 2.0.
+2021-03-22 00:26:47,679:WARNING: From D:\github\Bi_Lstm_Text_Classify\lstm_model.py:69: LSTMCell.__init__ (from tensorflow.python.ops.rnn_cell_impl) is deprecated and will be removed in a future version.
+Instructions for updating:
+This class is equivalent as tf.keras.layers.LSTMCell, and will be replaced by that in Tensorflow 2.0.
+2021-03-22 00:26:47,679:WARNING: From D:\github\Bi_Lstm_Text_Classify\lstm_model.py:75: bidirectional_dynamic_rnn (from tensorflow.python.ops.rnn) is deprecated and will be removed in a future version.
+Instructions for updating:
+Please use `keras.layers.Bidirectional(keras.layers.RNN(cell))`, which is equivalent to this API
+2021-03-22 00:26:47,679:WARNING: From D:\github\Bi_Lstm_Text_Classify\lstm_model.py:75: bidirectional_dynamic_rnn (from tensorflow.python.ops.rnn) is deprecated and will be removed in a future version.
+Instructions for updating:
+Please use `keras.layers.Bidirectional(keras.layers.RNN(cell))`, which is equivalent to this API
+2021-03-22 00:26:47,680:WARNING: From D:\software\Anaconda3\lib\site-packages\tensorflow\python\ops\rnn.py:443: dynamic_rnn (from tensorflow.python.ops.rnn) is deprecated and will be removed in a future version.
+Instructions for updating:
+Please use `keras.layers.RNN(cell)`, which is equivalent to this API
+2021-03-22 00:26:47,680:WARNING: From D:\software\Anaconda3\lib\site-packages\tensorflow\python\ops\rnn.py:443: dynamic_rnn (from tensorflow.python.ops.rnn) is deprecated and will be removed in a future version.
+Instructions for updating:
+Please use `keras.layers.RNN(cell)`, which is equivalent to this API
+2021-03-22 00:26:47,996:WARNING: From D:\software\Anaconda3\lib\site-packages\tensorflow\python\ops\math_ops.py:3066: to_int32 (from tensorflow.python.ops.math_ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use tf.cast instead.
+2021-03-22 00:26:47,996:WARNING: From D:\software\Anaconda3\lib\site-packages\tensorflow\python\ops\math_ops.py:3066: to_int32 (from tensorflow.python.ops.math_ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use tf.cast instead.
+2021-03-22 00:26:48,545:INFO: =========== testing ===========
+2021-03-22 00:26:48,545:INFO: =========== testing ===========
+2021-03-22 00:26:48,545:WARNING: From D:\software\Anaconda3\lib\site-packages\tensorflow\python\training\saver.py:1266: checkpoint_exists (from tensorflow.python.training.checkpoint_management) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use standard file APIs to check for files with this prefix.
+2021-03-22 00:26:48,545:WARNING: From D:\software\Anaconda3\lib\site-packages\tensorflow\python\training\saver.py:1266: checkpoint_exists (from tensorflow.python.training.checkpoint_management) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use standard file APIs to check for files with this prefix.
+2021-03-22 00:26:48,549:INFO: Restoring parameters from D:/github/Bi_Lstm_Text_Classify\data\output\03220011\checkpoints/model-12
+2021-03-22 00:26:48,549:INFO: Restoring parameters from D:/github/Bi_Lstm_Text_Classify\data\output\03220011\checkpoints/model-12
+2021-03-22 00:26:55,171:INFO: Test acc : 0.8522
+2021-03-22 00:26:55,171:INFO: Test acc : 0.8522
+2021-03-22 00:27:03,112:INFO: {'batch_size': 64, 'epoch': 12, 'hidden_dim': 128, 'optimizer': 'Adam', 'lr': 0.01, 'dropout': 0.5, 'embedding_dim': 128, 'classes_num': 3, 'shuffle': True, 'demo_model': '03220011'}
+2021-03-22 00:27:03,140:DEBUG: Building prefix dict from the default dictionary ...
+2021-03-22 00:27:03,142:DEBUG: Loading model from cache C:\Users\kungeek\AppData\Local\Temp\jieba.cache
+2021-03-22 00:27:03,837:DEBUG: Loading model cost 0.697 seconds.
+2021-03-22 00:27:03,837:DEBUG: Prefix dict has been built successfully.
+2021-03-22 00:27:08,510:WARNING: From D:\software\Anaconda3\lib\site-packages\tensorflow\python\framework\op_def_library.py:263: colocate_with (from tensorflow.python.framework.ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Colocations handled automatically by placer.
+2021-03-22 00:27:08,563:WARNING: From D:\github\Bi_Lstm_Text_Classify\lstm_model.py:65: calling dropout (from tensorflow.python.ops.nn_ops) with keep_prob is deprecated and will be removed in a future version.
+Instructions for updating:
+Please use `rate` instead of `keep_prob`. Rate should be set to `rate = 1 - keep_prob`.
+2021-03-22 00:27:08,563:WARNING: From D:\github\Bi_Lstm_Text_Classify\lstm_model.py:65: calling dropout (from tensorflow.python.ops.nn_ops) with keep_prob is deprecated and will be removed in a future version.
+Instructions for updating:
+Please use `rate` instead of `keep_prob`. Rate should be set to `rate = 1 - keep_prob`.
+2021-03-22 00:27:08,570:WARNING: From D:\github\Bi_Lstm_Text_Classify\lstm_model.py:69: LSTMCell.__init__ (from tensorflow.python.ops.rnn_cell_impl) is deprecated and will be removed in a future version.
+Instructions for updating:
+This class is equivalent as tf.keras.layers.LSTMCell, and will be replaced by that in Tensorflow 2.0.
+2021-03-22 00:27:08,570:WARNING: From D:\github\Bi_Lstm_Text_Classify\lstm_model.py:69: LSTMCell.__init__ (from tensorflow.python.ops.rnn_cell_impl) is deprecated and will be removed in a future version.
+Instructions for updating:
+This class is equivalent as tf.keras.layers.LSTMCell, and will be replaced by that in Tensorflow 2.0.
+2021-03-22 00:27:08,571:WARNING: From D:\github\Bi_Lstm_Text_Classify\lstm_model.py:75: bidirectional_dynamic_rnn (from tensorflow.python.ops.rnn) is deprecated and will be removed in a future version.
+Instructions for updating:
+Please use `keras.layers.Bidirectional(keras.layers.RNN(cell))`, which is equivalent to this API
+2021-03-22 00:27:08,571:WARNING: From D:\github\Bi_Lstm_Text_Classify\lstm_model.py:75: bidirectional_dynamic_rnn (from tensorflow.python.ops.rnn) is deprecated and will be removed in a future version.
+Instructions for updating:
+Please use `keras.layers.Bidirectional(keras.layers.RNN(cell))`, which is equivalent to this API
+2021-03-22 00:27:08,571:WARNING: From D:\software\Anaconda3\lib\site-packages\tensorflow\python\ops\rnn.py:443: dynamic_rnn (from tensorflow.python.ops.rnn) is deprecated and will be removed in a future version.
+Instructions for updating:
+Please use `keras.layers.RNN(cell)`, which is equivalent to this API
+2021-03-22 00:27:08,571:WARNING: From D:\software\Anaconda3\lib\site-packages\tensorflow\python\ops\rnn.py:443: dynamic_rnn (from tensorflow.python.ops.rnn) is deprecated and will be removed in a future version.
+Instructions for updating:
+Please use `keras.layers.RNN(cell)`, which is equivalent to this API
+2021-03-22 00:27:08,882:WARNING: From D:\software\Anaconda3\lib\site-packages\tensorflow\python\ops\math_ops.py:3066: to_int32 (from tensorflow.python.ops.math_ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use tf.cast instead.
+2021-03-22 00:27:08,882:WARNING: From D:\software\Anaconda3\lib\site-packages\tensorflow\python\ops\math_ops.py:3066: to_int32 (from tensorflow.python.ops.math_ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use tf.cast instead.
+2021-03-22 00:27:09,422:INFO: =========== testing ===========
+2021-03-22 00:27:09,422:INFO: =========== testing ===========
+2021-03-22 00:27:09,423:WARNING: From D:\software\Anaconda3\lib\site-packages\tensorflow\python\training\saver.py:1266: checkpoint_exists (from tensorflow.python.training.checkpoint_management) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use standard file APIs to check for files with this prefix.
+2021-03-22 00:27:09,423:WARNING: From D:\software\Anaconda3\lib\site-packages\tensorflow\python\training\saver.py:1266: checkpoint_exists (from tensorflow.python.training.checkpoint_management) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use standard file APIs to check for files with this prefix.
+2021-03-22 00:27:09,426:INFO: Restoring parameters from D:/github/Bi_Lstm_Text_Classify\data\output\03220011\checkpoints/model-11
+2021-03-22 00:27:09,426:INFO: Restoring parameters from D:/github/Bi_Lstm_Text_Classify\data\output\03220011\checkpoints/model-11
+2021-03-22 00:27:15,759:INFO: Test acc : 0.8643
+2021-03-22 00:27:15,759:INFO: Test acc : 0.8643
+2021-03-22 00:27:26,716:INFO: {'batch_size': 64, 'epoch': 12, 'hidden_dim': 128, 'optimizer': 'Adam', 'lr': 0.01, 'dropout': 0.5, 'embedding_dim': 128, 'classes_num': 3, 'shuffle': True, 'demo_model': '03220011'}
+2021-03-22 00:27:26,744:DEBUG: Building prefix dict from the default dictionary ...
+2021-03-22 00:27:26,746:DEBUG: Loading model from cache C:\Users\kungeek\AppData\Local\Temp\jieba.cache
+2021-03-22 00:27:27,455:DEBUG: Loading model cost 0.711 seconds.
+2021-03-22 00:27:27,455:DEBUG: Prefix dict has been built successfully.
+2021-03-22 00:27:32,223:WARNING: From D:\software\Anaconda3\lib\site-packages\tensorflow\python\framework\op_def_library.py:263: colocate_with (from tensorflow.python.framework.ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Colocations handled automatically by placer.
+2021-03-22 00:27:32,276:WARNING: From D:\github\Bi_Lstm_Text_Classify\lstm_model.py:65: calling dropout (from tensorflow.python.ops.nn_ops) with keep_prob is deprecated and will be removed in a future version.
+Instructions for updating:
+Please use `rate` instead of `keep_prob`. Rate should be set to `rate = 1 - keep_prob`.
+2021-03-22 00:27:32,276:WARNING: From D:\github\Bi_Lstm_Text_Classify\lstm_model.py:65: calling dropout (from tensorflow.python.ops.nn_ops) with keep_prob is deprecated and will be removed in a future version.
+Instructions for updating:
+Please use `rate` instead of `keep_prob`. Rate should be set to `rate = 1 - keep_prob`.
+2021-03-22 00:27:32,283:WARNING: From D:\github\Bi_Lstm_Text_Classify\lstm_model.py:69: LSTMCell.__init__ (from tensorflow.python.ops.rnn_cell_impl) is deprecated and will be removed in a future version.
+Instructions for updating:
+This class is equivalent as tf.keras.layers.LSTMCell, and will be replaced by that in Tensorflow 2.0.
+2021-03-22 00:27:32,283:WARNING: From D:\github\Bi_Lstm_Text_Classify\lstm_model.py:69: LSTMCell.__init__ (from tensorflow.python.ops.rnn_cell_impl) is deprecated and will be removed in a future version.
+Instructions for updating:
+This class is equivalent as tf.keras.layers.LSTMCell, and will be replaced by that in Tensorflow 2.0.
+2021-03-22 00:27:32,284:WARNING: From D:\github\Bi_Lstm_Text_Classify\lstm_model.py:75: bidirectional_dynamic_rnn (from tensorflow.python.ops.rnn) is deprecated and will be removed in a future version.
+Instructions for updating:
+Please use `keras.layers.Bidirectional(keras.layers.RNN(cell))`, which is equivalent to this API
+2021-03-22 00:27:32,284:WARNING: From D:\github\Bi_Lstm_Text_Classify\lstm_model.py:75: bidirectional_dynamic_rnn (from tensorflow.python.ops.rnn) is deprecated and will be removed in a future version.
+Instructions for updating:
+Please use `keras.layers.Bidirectional(keras.layers.RNN(cell))`, which is equivalent to this API
+2021-03-22 00:27:32,284:WARNING: From D:\software\Anaconda3\lib\site-packages\tensorflow\python\ops\rnn.py:443: dynamic_rnn (from tensorflow.python.ops.rnn) is deprecated and will be removed in a future version.
+Instructions for updating:
+Please use `keras.layers.RNN(cell)`, which is equivalent to this API
+2021-03-22 00:27:32,284:WARNING: From D:\software\Anaconda3\lib\site-packages\tensorflow\python\ops\rnn.py:443: dynamic_rnn (from tensorflow.python.ops.rnn) is deprecated and will be removed in a future version.
+Instructions for updating:
+Please use `keras.layers.RNN(cell)`, which is equivalent to this API
+2021-03-22 00:27:32,594:WARNING: From D:\software\Anaconda3\lib\site-packages\tensorflow\python\ops\math_ops.py:3066: to_int32 (from tensorflow.python.ops.math_ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use tf.cast instead.
+2021-03-22 00:27:32,594:WARNING: From D:\software\Anaconda3\lib\site-packages\tensorflow\python\ops\math_ops.py:3066: to_int32 (from tensorflow.python.ops.math_ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use tf.cast instead.
+2021-03-22 00:27:33,149:INFO: =========== testing ===========
+2021-03-22 00:27:33,149:INFO: =========== testing ===========
+2021-03-22 00:27:33,150:WARNING: From D:\software\Anaconda3\lib\site-packages\tensorflow\python\training\saver.py:1266: checkpoint_exists (from tensorflow.python.training.checkpoint_management) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use standard file APIs to check for files with this prefix.
+2021-03-22 00:27:33,150:WARNING: From D:\software\Anaconda3\lib\site-packages\tensorflow\python\training\saver.py:1266: checkpoint_exists (from tensorflow.python.training.checkpoint_management) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use standard file APIs to check for files with this prefix.
+2021-03-22 00:27:33,153:INFO: Restoring parameters from D:/github/Bi_Lstm_Text_Classify\data\output\03220011\checkpoints/model-10
+2021-03-22 00:27:33,153:INFO: Restoring parameters from D:/github/Bi_Lstm_Text_Classify\data\output\03220011\checkpoints/model-10
+2021-03-22 00:27:39,526:INFO: Test acc : 0.8545
+2021-03-22 00:27:39,526:INFO: Test acc : 0.8545
+2021-03-22 00:27:51,196:INFO: {'batch_size': 64, 'epoch': 12, 'hidden_dim': 128, 'optimizer': 'Adam', 'lr': 0.01, 'dropout': 0.5, 'embedding_dim': 128, 'classes_num': 3, 'shuffle': True, 'demo_model': '03220011'}
+2021-03-22 00:27:51,223:DEBUG: Building prefix dict from the default dictionary ...
+2021-03-22 00:27:51,225:DEBUG: Loading model from cache C:\Users\kungeek\AppData\Local\Temp\jieba.cache
+2021-03-22 00:27:51,931:DEBUG: Loading model cost 0.708 seconds.
+2021-03-22 00:27:51,931:DEBUG: Prefix dict has been built successfully.
+2021-03-22 00:27:56,673:WARNING: From D:\software\Anaconda3\lib\site-packages\tensorflow\python\framework\op_def_library.py:263: colocate_with (from tensorflow.python.framework.ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Colocations handled automatically by placer.
+2021-03-22 00:27:56,728:WARNING: From D:\github\Bi_Lstm_Text_Classify\lstm_model.py:65: calling dropout (from tensorflow.python.ops.nn_ops) with keep_prob is deprecated and will be removed in a future version.
+Instructions for updating:
+Please use `rate` instead of `keep_prob`. Rate should be set to `rate = 1 - keep_prob`.
+2021-03-22 00:27:56,728:WARNING: From D:\github\Bi_Lstm_Text_Classify\lstm_model.py:65: calling dropout (from tensorflow.python.ops.nn_ops) with keep_prob is deprecated and will be removed in a future version.
+Instructions for updating:
+Please use `rate` instead of `keep_prob`. Rate should be set to `rate = 1 - keep_prob`.
+2021-03-22 00:27:56,735:WARNING: From D:\github\Bi_Lstm_Text_Classify\lstm_model.py:69: LSTMCell.__init__ (from tensorflow.python.ops.rnn_cell_impl) is deprecated and will be removed in a future version.
+Instructions for updating:
+This class is equivalent as tf.keras.layers.LSTMCell, and will be replaced by that in Tensorflow 2.0.
+2021-03-22 00:27:56,735:WARNING: From D:\github\Bi_Lstm_Text_Classify\lstm_model.py:69: LSTMCell.__init__ (from tensorflow.python.ops.rnn_cell_impl) is deprecated and will be removed in a future version.
+Instructions for updating:
+This class is equivalent as tf.keras.layers.LSTMCell, and will be replaced by that in Tensorflow 2.0.
+2021-03-22 00:27:56,735:WARNING: From D:\github\Bi_Lstm_Text_Classify\lstm_model.py:75: bidirectional_dynamic_rnn (from tensorflow.python.ops.rnn) is deprecated and will be removed in a future version.
+Instructions for updating:
+Please use `keras.layers.Bidirectional(keras.layers.RNN(cell))`, which is equivalent to this API
+2021-03-22 00:27:56,735:WARNING: From D:\github\Bi_Lstm_Text_Classify\lstm_model.py:75: bidirectional_dynamic_rnn (from tensorflow.python.ops.rnn) is deprecated and will be removed in a future version.
+Instructions for updating:
+Please use `keras.layers.Bidirectional(keras.layers.RNN(cell))`, which is equivalent to this API
+2021-03-22 00:27:56,736:WARNING: From D:\software\Anaconda3\lib\site-packages\tensorflow\python\ops\rnn.py:443: dynamic_rnn (from tensorflow.python.ops.rnn) is deprecated and will be removed in a future version.
+Instructions for updating:
+Please use `keras.layers.RNN(cell)`, which is equivalent to this API
+2021-03-22 00:27:56,736:WARNING: From D:\software\Anaconda3\lib\site-packages\tensorflow\python\ops\rnn.py:443: dynamic_rnn (from tensorflow.python.ops.rnn) is deprecated and will be removed in a future version.
+Instructions for updating:
+Please use `keras.layers.RNN(cell)`, which is equivalent to this API
+2021-03-22 00:27:57,049:WARNING: From D:\software\Anaconda3\lib\site-packages\tensorflow\python\ops\math_ops.py:3066: to_int32 (from tensorflow.python.ops.math_ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use tf.cast instead.
+2021-03-22 00:27:57,049:WARNING: From D:\software\Anaconda3\lib\site-packages\tensorflow\python\ops\math_ops.py:3066: to_int32 (from tensorflow.python.ops.math_ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use tf.cast instead.
+2021-03-22 00:27:57,604:INFO: =========== testing ===========
+2021-03-22 00:27:57,604:INFO: =========== testing ===========
+2021-03-22 00:27:57,604:WARNING: From D:\software\Anaconda3\lib\site-packages\tensorflow\python\training\saver.py:1266: checkpoint_exists (from tensorflow.python.training.checkpoint_management) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use standard file APIs to check for files with this prefix.
+2021-03-22 00:27:57,604:WARNING: From D:\software\Anaconda3\lib\site-packages\tensorflow\python\training\saver.py:1266: checkpoint_exists (from tensorflow.python.training.checkpoint_management) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use standard file APIs to check for files with this prefix.
+2021-03-22 00:27:57,607:INFO: Restoring parameters from D:/github/Bi_Lstm_Text_Classify\data\output\03220011\checkpoints/model-9
+2021-03-22 00:27:57,607:INFO: Restoring parameters from D:/github/Bi_Lstm_Text_Classify\data\output\03220011\checkpoints/model-9
+2021-03-22 00:28:04,348:INFO: Test acc : 0.8705
+2021-03-22 00:28:04,348:INFO: Test acc : 0.8705
+2021-03-22 00:28:17,761:INFO: {'batch_size': 64, 'epoch': 12, 'hidden_dim': 128, 'optimizer': 'Adam', 'lr': 0.01, 'dropout': 0.5, 'embedding_dim': 128, 'classes_num': 3, 'shuffle': True, 'demo_model': '03220011'}
+2021-03-22 00:28:17,789:DEBUG: Building prefix dict from the default dictionary ...
+2021-03-22 00:28:17,791:DEBUG: Loading model from cache C:\Users\kungeek\AppData\Local\Temp\jieba.cache
+2021-03-22 00:28:18,502:DEBUG: Loading model cost 0.713 seconds.
+2021-03-22 00:28:18,502:DEBUG: Prefix dict has been built successfully.
+2021-03-22 00:28:23,224:WARNING: From D:\software\Anaconda3\lib\site-packages\tensorflow\python\framework\op_def_library.py:263: colocate_with (from tensorflow.python.framework.ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Colocations handled automatically by placer.
+2021-03-22 00:28:23,281:WARNING: From D:\github\Bi_Lstm_Text_Classify\lstm_model.py:65: calling dropout (from tensorflow.python.ops.nn_ops) with keep_prob is deprecated and will be removed in a future version.
+Instructions for updating:
+Please use `rate` instead of `keep_prob`. Rate should be set to `rate = 1 - keep_prob`.
+2021-03-22 00:28:23,281:WARNING: From D:\github\Bi_Lstm_Text_Classify\lstm_model.py:65: calling dropout (from tensorflow.python.ops.nn_ops) with keep_prob is deprecated and will be removed in a future version.
+Instructions for updating:
+Please use `rate` instead of `keep_prob`. Rate should be set to `rate = 1 - keep_prob`.
+2021-03-22 00:28:23,289:WARNING: From D:\github\Bi_Lstm_Text_Classify\lstm_model.py:69: LSTMCell.__init__ (from tensorflow.python.ops.rnn_cell_impl) is deprecated and will be removed in a future version.
+Instructions for updating:
+This class is equivalent as tf.keras.layers.LSTMCell, and will be replaced by that in Tensorflow 2.0.
+2021-03-22 00:28:23,289:WARNING: From D:\github\Bi_Lstm_Text_Classify\lstm_model.py:69: LSTMCell.__init__ (from tensorflow.python.ops.rnn_cell_impl) is deprecated and will be removed in a future version.
+Instructions for updating:
+This class is equivalent as tf.keras.layers.LSTMCell, and will be replaced by that in Tensorflow 2.0.
+2021-03-22 00:28:23,289:WARNING: From D:\github\Bi_Lstm_Text_Classify\lstm_model.py:75: bidirectional_dynamic_rnn (from tensorflow.python.ops.rnn) is deprecated and will be removed in a future version.
+Instructions for updating:
+Please use `keras.layers.Bidirectional(keras.layers.RNN(cell))`, which is equivalent to this API
+2021-03-22 00:28:23,289:WARNING: From D:\github\Bi_Lstm_Text_Classify\lstm_model.py:75: bidirectional_dynamic_rnn (from tensorflow.python.ops.rnn) is deprecated and will be removed in a future version.
+Instructions for updating:
+Please use `keras.layers.Bidirectional(keras.layers.RNN(cell))`, which is equivalent to this API
+2021-03-22 00:28:23,290:WARNING: From D:\software\Anaconda3\lib\site-packages\tensorflow\python\ops\rnn.py:443: dynamic_rnn (from tensorflow.python.ops.rnn) is deprecated and will be removed in a future version.
+Instructions for updating:
+Please use `keras.layers.RNN(cell)`, which is equivalent to this API
+2021-03-22 00:28:23,290:WARNING: From D:\software\Anaconda3\lib\site-packages\tensorflow\python\ops\rnn.py:443: dynamic_rnn (from tensorflow.python.ops.rnn) is deprecated and will be removed in a future version.
+Instructions for updating:
+Please use `keras.layers.RNN(cell)`, which is equivalent to this API
+2021-03-22 00:28:23,605:WARNING: From D:\software\Anaconda3\lib\site-packages\tensorflow\python\ops\math_ops.py:3066: to_int32 (from tensorflow.python.ops.math_ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use tf.cast instead.
+2021-03-22 00:28:23,605:WARNING: From D:\software\Anaconda3\lib\site-packages\tensorflow\python\ops\math_ops.py:3066: to_int32 (from tensorflow.python.ops.math_ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use tf.cast instead.
+2021-03-22 00:28:24,153:INFO: =========== testing ===========
+2021-03-22 00:28:24,153:INFO: =========== testing ===========
+2021-03-22 00:28:24,153:WARNING: From D:\software\Anaconda3\lib\site-packages\tensorflow\python\training\saver.py:1266: checkpoint_exists (from tensorflow.python.training.checkpoint_management) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use standard file APIs to check for files with this prefix.
+2021-03-22 00:28:24,153:WARNING: From D:\software\Anaconda3\lib\site-packages\tensorflow\python\training\saver.py:1266: checkpoint_exists (from tensorflow.python.training.checkpoint_management) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use standard file APIs to check for files with this prefix.
+2021-03-22 00:28:24,156:INFO: Restoring parameters from D:/github/Bi_Lstm_Text_Classify\data\output\03220011\checkpoints/model-8
+2021-03-22 00:28:24,156:INFO: Restoring parameters from D:/github/Bi_Lstm_Text_Classify\data\output\03220011\checkpoints/model-8
+2021-03-22 00:28:30,389:INFO: Test acc : 0.8582
+2021-03-22 00:28:30,389:INFO: Test acc : 0.8582

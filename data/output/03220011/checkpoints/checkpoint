@@ -1,0 +1,6 @@
+model_checkpoint_path: "D:/github/Bi_Lstm_Text_Classify\\data\\output\\03220011\\checkpoints/model-9"
+all_model_checkpoint_paths: "D:/github/Bi_Lstm_Text_Classify\\data\\output\\03220011\\checkpoints/model-8"
+all_model_checkpoint_paths: "D:/github/Bi_Lstm_Text_Classify\\data\\output\\03220011\\checkpoints/model-9"
+all_model_checkpoint_paths: "D:/github/Bi_Lstm_Text_Classify\\data\\output\\03220011\\checkpoints/model-10"
+all_model_checkpoint_paths: "D:/github/Bi_Lstm_Text_Classify\\data\\output\\03220011\\checkpoints/model-11"
+all_model_checkpoint_paths: "D:/github/Bi_Lstm_Text_Classify\\data\\output\\03220011\\checkpoints/model-12"
